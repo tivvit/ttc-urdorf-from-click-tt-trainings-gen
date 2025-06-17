@@ -1,0 +1,18 @@
+[project]
+name = "ttc-urdorf-from-click-tt-trainings-gen"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Vít Listík",email = "tivvit@seznam.cz"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.4,<3.0.0)",
+    "beautifulsoup4 (>=4.13.4,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
